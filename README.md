@@ -63,7 +63,7 @@ In this project, we propose to build a model based on the methodology outlined i
 
 #### A Pre-trained Deep Model trained on 14 hand gestures
 
-![Proposed parallel convolutional neural network](images/8373818-fig-2-source-large.png)
+![Proposed parallel convolutional neural network](images/hg2.png)
 
 The paper proposes the use of a multichannel convolutional network with two feature extraction modules and a residual branch per channel, as shown in the figure above.
 
@@ -77,7 +77,7 @@ The third branch in a channel works as a residual branch. Residual branches make
 
 The Dynamic Hand Gesture-14/28 (DHG) dataset was created and introduced, \cite{10.2312:3dor.20171049} as a part of the SHREC2017-3D Shape retrieval Contest, as suggested in the paper. It consists of 3D hand skeletal representations returned by the Intel RealSense depth camera, corresponding to the 3D coordinates of 22 landmarks of the human hand.
 
-![Hand skeleton returned by the Intel RealSense camera](images/8373818-fig-1-source-small.png)
+![Hand skeleton returned by the Intel RealSense camera](images/hg1.png)
 
 #### Mediapipe framework
 
@@ -183,7 +183,7 @@ The confusion matrix for the crude pre-trained model on a test set can be seen i
 
 ![Original dataset](images/cm_original.png)
 ![100+30 samples transfer learning](images/cm_100_30.png)
-![100+30 samples model accuracy](images/cm_100_30.png)
+![100+30 samples model accuracy](images/graph_balanced_medium_dataset.png)
 ![Confusion Matrices and model accuracy]
 
 ### Re-training the Model
